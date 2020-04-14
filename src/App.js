@@ -17,7 +17,6 @@ const App = () => {
     const [data, setData] = useState(DummyDate);
     return (
         <div className="App">
-            {/* Add imported components here to render them */}
             <SearchBar />
             <PostPage data={data} />
         </div>
